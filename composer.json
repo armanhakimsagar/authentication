@@ -1,0 +1,17 @@
+{
+    "name": "arman/authentication",
+    "description": "This is Laravel front end package for authentication.",
+    "keywords": ["authentication", "laravel"],
+    "license": "arman",
+    "authors": [
+        {
+            "name": "arman hakim sagar",
+            "email": "armanhakimsagar@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.4.0"
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}

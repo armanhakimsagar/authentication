@@ -1,0 +1,141 @@
+body { background-color:#ECF0F1;}
+.position {
+  float: left;
+}
+
+.progress-bar {
+  position: relative;
+  height: 200px;
+  width: 200px;
+}
+
+.progress-bar div {
+  position: absolute;
+  height: 200px;
+  width: 200px;
+     border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -o-border-radius: 50%;
+    -ms-border-radius: 50%;
+}
+
+.progress-bar div span {
+    position: absolute;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 25px;
+    line-height: 175px;
+    height: 175px;
+    width: 175px;
+    left: 12.5px;
+    top: 12.5px;
+    text-align: center;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -o-border-radius: 50%;
+    -ms-border-radius: 50%;
+    background-color: rgb(2, 2, 2);
+    color: #fff;
+    font-weight: 700;
+}
+
+.progress-bar .background { background-color: #147efb; }
+
+.progress-bar .rotate {
+  clip: rect(0 100px 200px 0);
+  background-color: #4b86db;
+}
+
+.progress-bar .left {
+  clip: rect(0 100px 200px 0);
+  opacity: 1;
+  background-color: #b3cef6;
+}
+
+.progress-bar .right {
+  clip: rect(0 100px 200px 0);
+  transform: rotate(180deg);
+  opacity: 0;
+  background-color: #4b86db;
+}
+ @keyframes 
+toggle {  0% {
+ opacity: 0;
+}
+ 100% {
+ opacity: 1;
+}
+}
+/*--Responsive--*/
+@media (max-width:1024px){
+	.progress-bar div {
+		position: absolute;
+		height: 180px;
+		width: 180px;
+	}
+	.progress-bar div span {
+		font-size: 25px;
+		line-height: 158px;
+		height: 160px;
+		width: 160px;
+		left: 9.5px;
+		top: 9.5px;
+
+	}
+}
+@media (max-width:991px){
+
+
+}
+@media (max-width:800px){
+	.progress-bar div {
+		position: absolute;
+		height: 145px;
+		width: 145px;
+	}
+	.progress-bar div span {
+		font-size: 25px;
+		line-height: 122px;
+		height: 130px;
+		width: 130px;
+		left: 7.5px;
+		top: 8.5px;
+	}
+	.cir_agile_info {
+		min-height: 293px;
+		padding: 2em 2em;
+	}
+}
+@media (max-width:768px){
+
+	.progress-bar div span {
+		font-size: 25px;
+		line-height: 122px;
+		height: 130px;
+		width: 130px;
+		left: 7px;
+		top: 7px;
+	}
+
+}
+@media (max-width:667px){
+	.progress-bar div {
+		position: absolute;
+		height: 125px;
+		width: 125px;
+	}
+	.progress-bar div span {
+		font-size: 21px;
+		line-height: 101px;
+		height: 107px;
+		width: 107px;
+		left: 9px;
+		top: 9px;
+	}
+	.cir_agile_info {
+		min-height: 289px;
+		padding: 3em 1em 0 1em;
+	}
+}
+/*--//Responsive--*/
