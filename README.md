@@ -1,3 +1,16 @@
+Active Features :
+
+1. Login system
+2. Register System
+3. Forgot Password
+4. Professional admin panel dashborad
+5. searchbar
+6. notificaton
+7. social media panel
+
+
+
+
 For use :
 
 
