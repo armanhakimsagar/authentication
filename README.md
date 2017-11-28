@@ -25,7 +25,7 @@ For use :
 	]
 
 3. composer.json
-
+[
   "autoload": {
 	"classmap": [
 		"database"
@@ -35,6 +35,8 @@ For use :
 		"arman\\authentication\\": "vendor/arman/authentication/src"
 	}
   },
+
+]
 
 
 4. php artisan vendor:publish --tag=arman_authentication --force 
